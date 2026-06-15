@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Hiring Intelligence System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- INTRO SCREEN -->
+    <div id="intro-screen">
+        <audio id="doorSound" src="assets/door.mp3"></audio>
+        <audio id="welcomeSound" src="assets/welcome.mp3"></audio>
+        <audio id="bgMusic" src="assets/ambient.mp3" loop></audio>
+
+        <div class="door-container">
+            <div class="door left-door"></div>
+            <div class="door right-door"></div>
+
+            <div class="intro-content">
+                <h1>⚔ 日本 Hiring Intelligence System ⚔</h1>
+                <p>Enter the Data Realm</p>
+                <button id="enter-btn">Enter Experience</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sakura container -->
+    <div id="sakura-container"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">日本 Analytics</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#workflow">Workflow</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <button id="music-toggle">🔊</button>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <img src="assets/katana.png" class="katana-left">
+        <img src="assets/katana.png" class="katana-right">
+        <img src="assets/japan-flag.png" class="japan-flag">
+<img src="assets/Torii.png" class="torii-gate">
+        <div class="hero-content">
+            <h1>Japanese Hiring Intelligence Dashboard</h1>
+            <p>
+                End-to-End Data Analytics Project analyzing 2M+ recruitment records
+                using Python, SQL Server, Power BI, and Web Deployment.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#dashboard" class="btn">View Dashboard</a>
+                <a href="https://github.com/chandramohan700733-lang/Japanese_Hiring_Intelligence_System" class="btn secondary">GitHub Repo</a>
+            </div>
+        </div>
+
+        <img src="assets/tokyo-skyline.png" class="skyline">
+    </section>
+
+    <!-- WHY -->
+    <section class="section">
+        <h2>Why This Project?</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Hiring Trends</h3>
+                <p>Which departments hire the most candidates in Japan?</p>
+            </div>
+
+            <div class="card">
+                <h3>JLPT Impact</h3>
+                <p>Does Japanese language proficiency affect selection rate?</p>
+            </div>
+
+            <div class="card">
+                <h3>Salary Insights</h3>
+                <p>Which roles offer the highest compensation?</p>
+            </div>
+
+            <div class="card">
+                <h3>Candidate Performance</h3>
+                <p>How hiring score affects final selection?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKFLOW -->
+    <section class="section" id="workflow">
+        <h2>Project Workflow</h2>
+
+        <div class="workflow">
+            <div class="step">Raw HR Dataset</div>
+            <div class="arrow">↓</div>
+            <div class="step">Python Cleaning</div>
+            <div class="arrow">↓</div>
+            <div class="step">SQL Analysis</div>
+            <div class="arrow">↓</div>
+            <div class="step">Power BI Dashboard</div>
+            <div class="arrow">↓</div>
+            <div class="step">Website Deployment</div>
+        </div>
+    </section>
+
+    <!-- PYTHON -->
+    <section class="section">
+        <h2>Python Data Cleaning</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Before Cleaning</h3>
+                <p>Duplicates, null values, inconsistent salary formatting.</p>
+            </div>
+
+            <div class="card">
+                <h3>After Cleaning</h3>
+                <p>Optimized dataset ready for analytics pipeline.</p>
+            </div>
+        </div>
+
+        <div class="code-box">
+df.drop_duplicates(inplace=True)
+df.fillna(method='ffill')
+        </div>
+    </section>
+
+    <!-- SQL -->
+    <section class="section">
+        <h2>SQL Analysis</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Average Salary</h3>
+                <p>Department-wise salary comparison using aggregation queries.</p>
+            </div>
+
+            <div class="card">
+                <h3>JLPT Analysis</h3>
+                <p>Candidate distribution across language levels.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section class="section" id="dashboard">
+        <h2>Power BI Dashboard</h2>
+
+        <div class="dashboard-grid">
+            <img src="assets/page1.png" alt="Dashboard Page 1">
+            <img src="assets/page2.png" alt="Dashboard Page 2">
+            <img src="assets/page3.png" alt="Dashboard Page 3">
+        </div>
+    </section>
+
+    <!-- INSIGHTS -->
+    <section class="section" id="insights">
+        <h2>Key Insights</h2>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>385K Selected Candidates</h3>
+                <p>Strong recruitment funnel performance.</p>
+            </div>
+
+            <div class="card">
+                <h3>Finance Highest Salary</h3>
+                <p>Top compensation among departments.</p>
+            </div>
+
+            <div class="card">
+                <h3>JLPT Matters</h3>
+                <p>Higher JLPT boosts selection chances.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <h2>About Creator</h2>
+
+        <div class="about-box">
+            <h3>Chandra Mohan Singh Sisodiya</h3>
+            <p>Data Analyst Trainee | SQL | Python | Power BI </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>七転び八起き — Fall seven times, rise eight.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
