@@ -118,7 +118,7 @@ Dashboard includes:
 ## 🌐 Live Project
 
 GitHub Pages Link:
-(Add your live link here after deployment)
+https://chandramohan700733-lang.github.io/-Japanese-Hiring-Intelligence-System/
 
 ---
 
