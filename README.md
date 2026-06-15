@@ -5,6 +5,7 @@
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-121013?style=for-the-badge&logo=github&logoColor=white)
 ![Dataset](https://img.shields.io/badge/Dataset-2M_Records-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
 A full **End-to-End Data Analytics Project** focused on analyzing Japanese recruitment trends using **Python, SQL Server, Power BI, and GitHub Pages**.
 
 This project transforms raw HR recruitment data into meaningful business insights through data cleaning, SQL analysis, interactive dashboards, and a Japan-themed portfolio website.
