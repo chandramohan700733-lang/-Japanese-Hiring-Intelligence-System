@@ -338,15 +338,17 @@ footer{
         flex-direction:column;
         gap:15px;
     }
+nav ul{
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
 
-    nav ul{
-        gap:15px;
-       flex-wrap:nowrap;
-overflow-x:auto;
-        justify-content:center;
-    }
+nav ul li a{
+    font-size:14px;
+}
 .hero{
-    padding-top:220px;
+    padding-top:180px;
 }
 
 .logo{
