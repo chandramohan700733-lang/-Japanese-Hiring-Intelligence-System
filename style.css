@@ -333,30 +333,40 @@ footer{
 }
 
 @media(max-width:768px){
+
     nav{
-        padding:20px;
+        padding:15px 10px;
         flex-direction:column;
-        gap:15px;
+        gap:10px;
     }
-nav ul{
-    gap:10px;
-    flex-wrap:wrap;
-    justify-content:center;
-}
 
-nav ul li a{
-    font-size:14px;
-}
-.hero{
-    padding-top:180px;
-}
+    .logo{
+        font-size:22px;
+        text-align:center;
+    }
 
-.logo{
-    text-align:center;
-}
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:8px;
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+
+    nav ul li a{
+        font-size:13px;
+    }
+
+    .hero{
+        padding-top:190px;
+    }
+
     .hero h1{
-        font-size:36px;
+        font-size:32px;
     }
+}
 
     .hero p{
         font-size:18px;
