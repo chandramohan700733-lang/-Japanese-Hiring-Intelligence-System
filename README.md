@@ -127,15 +127,15 @@ GitHub Pages Link:
 
 ### Page 1 — Executive Overview
 
-![Dashboard Page 1](assets/page1.png)
+![Dashboard Page 1](page1.png)
 
 ### Page 2 — Candidate Intelligence
 
-![Dashboard Page 2](assets/page2.png)
+![Dashboard Page 2](page2.png)
 
 ### Page 3 — Salary & Performance Insights
 
-![Dashboard Page 3](assets/page3.png)
+![Dashboard Page 3](page3.png)
 
 
 ## 👨‍💻 About Me
