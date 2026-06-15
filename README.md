@@ -141,7 +141,6 @@ GitHub Pages Link:
 ## 👨‍💻 About Me
 
 **Chandra Mohan Singh Sisodiya**
-
 Data Analyst Trainee | SQL | Python | Power BI 
 
 I am passionate about transforming raw data into actionable insights and continuously improving my analytics skills.
