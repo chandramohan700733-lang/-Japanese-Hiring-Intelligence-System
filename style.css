@@ -135,7 +135,8 @@ nav ul li a:hover{
 
 /* HERO */
 .hero{
-    height:100vh;
+    min-height:100vh;
+    padding-top:140px;
     position:relative;
     display:flex;
     justify-content:center;
@@ -340,10 +341,17 @@ footer{
 
     nav ul{
         gap:15px;
-        flex-wrap:wrap;
+       flex-wrap:nowrap;
+overflow-x:auto;
         justify-content:center;
     }
+.hero{
+    padding-top:220px;
+}
 
+.logo{
+    text-align:center;
+}
     .hero h1{
         font-size:36px;
     }
